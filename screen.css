@@ -87,7 +87,7 @@ h3 {
 
 form {
     width: 900px;
-    background: linear-gradient(#E9E9E9, #424242) no-repeat center;
+    background: linear-gradient(#E2E2E2, #D6D7D6) no-repeat center;
     border-radius: 20px;
 }
 
@@ -100,4 +100,16 @@ input[type=text] {
     font-size: 16px;
     background-color: white;
     color: #424242;
+    border: none;
+}
+
+input[type=button] {
+    font-weight: 900;
+    font-size: 16px;
+    padding: 20px 20px 20px 20px;
+    margin-left: -10px;
+    margin-right: 0px;
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
 }
